@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="95.561" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="PHPTravels Complete Automation" name="Validate complete booking workflow - Example #1.1" time="53.397">
+<failure type="org.openqa.selenium.TimeoutException" message="Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),'Delhi')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\shu78\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58541}, goog:processID: 1560, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58541/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05f70f5c521f6ff11f6a7800da22bae5">
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),'Delhi')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\shu78\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58541}, goog:processID: 1560, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58541/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05f70f5c521f6ff11f6a7800da22bae5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at POM_test.Page.SearchHotel(Page.java:111)
+	at StepDefinition.PHPTravelsSteps.user_searches_hotel(PHPTravelsSteps.java:56)
+	at ✽.user searches hotel Delhi(file:///D:/wipro-selenium-java-April/NewBDDFramework/src/test/resources/features/complete.feature:14)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user launches PHPTravels application..................................passed
+When user enters phptravels username user@phptravels.com....................passed
+And user enters phptravels password demouser................................passed
+And user clicks login button................................................passed
+Then user should login successfully.........................................passed
+When user searches hotel Delhi..............................................failed
+And user selects checkin date 10-06-2026....................................skipped
+And user selects checkout date 15-06-2026...................................skipped
+And user selects travellers 2...............................................skipped
+And user clicks hotel search button.........................................skipped
+Then hotel search result should display.....................................skipped
+When user selects first hotel...............................................skipped
+And user validates hotel prices.............................................skipped
+And user books hotel........................................................skipped
+Then booking should complete successfully...................................skipped
+When user logout from phptravels application................................skipped
+Then browser should close successfully......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="PHPTravels Complete Automation" name="Validate complete booking workflow - Example #1.2" time="41.814">
+<failure type="org.openqa.selenium.TimeoutException" message="Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),'Mumbai')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\shu78\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50890}, goog:processID: 1688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50890/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd244b5022dd2fbc26fbfa675d403a8c">
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(text(),'Mumbai')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\shu78\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50890}, goog:processID: 1688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50890/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd244b5022dd2fbc26fbfa675d403a8c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at POM_test.Page.SearchHotel(Page.java:111)
+	at StepDefinition.PHPTravelsSteps.user_searches_hotel(PHPTravelsSteps.java:56)
+	at ✽.user searches hotel Mumbai(file:///D:/wipro-selenium-java-April/NewBDDFramework/src/test/resources/features/complete.feature:14)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user launches PHPTravels application..................................passed
+When user enters phptravels username user@phptravels.com....................passed
+And user enters phptravels password demouser................................passed
+And user clicks login button................................................passed
+Then user should login successfully.........................................passed
+When user searches hotel Mumbai.............................................failed
+And user selects checkin date 20-06-2026....................................skipped
+And user selects checkout date 25-06-2026...................................skipped
+And user selects travellers 3...............................................skipped
+And user clicks hotel search button.........................................skipped
+Then hotel search result should display.....................................skipped
+When user selects first hotel...............................................skipped
+And user validates hotel prices.............................................skipped
+And user books hotel........................................................skipped
+Then booking should complete successfully...................................skipped
+When user logout from phptravels application................................skipped
+Then browser should close successfully......................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

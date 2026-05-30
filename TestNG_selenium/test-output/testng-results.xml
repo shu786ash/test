@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-26T22:05:57 IST" name="Default suite" finished-at="2026-05-26T22:06:50 IST" duration-ms="52951">
+    <groups>
+    </groups>
+    <test started-at="2026-05-26T22:05:57 IST" name="Default test" finished-at="2026-05-26T22:06:50 IST" duration-ms="52951">
+      <class name="Testing_practice.Third_test">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Testing_practice.Third_test@385c9627]" started-at="2026-05-26T22:05:57 IST" name="beforeTest" finished-at="2026-05-26T22:06:01 IST" duration-ms="3542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login()[pri:1, instance:Testing_practice.Third_test@385c9627]" started-at="2026-05-26T22:06:01 IST" name="login" finished-at="2026-05-26T22:06:05 IST" duration-ms="3710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="multiple_search()[pri:2, instance:Testing_practice.Third_test@385c9627]" started-at="2026-05-26T22:06:05 IST" name="multiple_search" finished-at="2026-05-26T22:06:08 IST" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiple_search -->
+        <test-method signature="left_menu_button()[pri:3, instance:Testing_practice.Third_test@385c9627]" started-at="2026-05-26T22:06:08 IST" name="left_menu_button" finished-at="2026-05-26T22:06:16 IST" duration-ms="8412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- left_menu_button -->
+        <test-method signature="filter_button()[pri:4, instance:Testing_practice.Third_test@385c9627]" started-at="2026-05-26T22:06:16 IST" name="filter_button" finished-at="2026-05-26T22:06:22 IST" duration-ms="5367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filter_button -->
+        <test-method signature="add_to_cart()[pri:5, instance:Testing_practice.Third_test@385c9627]" started-at="2026-05-26T22:06:22 IST" name="add_to_cart" finished-at="2026-05-26T22:06:25 IST" duration-ms="3105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_to_cart -->
+        <test-method signature="product_details()[pri:6, instance:Testing_practice.Third_test@385c9627]" started-at="2026-05-26T22:06:25 IST" name="product_details" finished-at="2026-05-26T22:06:28 IST" duration-ms="3194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product_details -->
+        <test-method signature="delete_cart_item()[pri:7, instance:Testing_practice.Third_test@385c9627]" started-at="2026-05-26T22:06:28 IST" name="delete_cart_item" finished-at="2026-05-26T22:06:31 IST" duration-ms="3092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_cart_item -->
+        <test-method signature="add()[pri:8, instance:Testing_practice.Third_test@385c9627]" started-at="2026-05-26T22:06:31 IST" name="add" finished-at="2026-05-26T22:06:43 IST" duration-ms="11794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method signature="logout()[pri:9, instance:Testing_practice.Third_test@385c9627]" started-at="2026-05-26T22:06:43 IST" name="logout" finished-at="2026-05-26T22:06:49 IST" duration-ms="6187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Testing_practice.Third_test@385c9627]" started-at="2026-05-26T22:06:49 IST" name="afterTest" finished-at="2026-05-26T22:06:50 IST" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Testing_practice.Third_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
