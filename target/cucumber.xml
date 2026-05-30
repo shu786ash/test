@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="45.392" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="verify complete ecommerce flow" name="verify complete ecommerce functionality - Example #1.1" time="45.124">
+<system-out><![CDATA[
+Given user open TutorialsNinja registration page............................passed
+When user enter firstname Ashish............................................passed
+And user enter lastname Shukla..............................................passed
+And user enter registration email abc@gmail.com.............................passed
+And user enter telephone 7894563020.........................................passed
+And user enter registration password Ashi@123456............................passed
+And user enter confirm password Ashi@123456.................................passed
+And user click on privacy policy checkbox...................................passed
+And user click on continue button...........................................passed
+And user logout after registration..........................................passed
+And user open login page....................................................passed
+And user enter login email abc@gmail.com....................................passed
+And user enter login password Ashi@123456...................................passed
+And user click on login button..............................................passed
+And user search product iPhone..............................................passed
+And user click on search button.............................................passed
+And user click on searched product..........................................passed
+And user click on add to cart button........................................passed
+And user click on shopping cart.............................................passed
+And user click on checkout button...........................................passed
+And user click on remove button.............................................passed
+And user logout successfully................................................passed
+Then complete ecommerce flow should execute successfully....................passed
+]]></system-out>
+</testcase>
+</testsuite>
