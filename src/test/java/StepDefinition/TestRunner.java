@@ -8,7 +8,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-features = "classpath/features",
+features = "src/test/resources/features",
 glue ="StepDefinition",
 tags = "@Smoke",
 plugin = {
